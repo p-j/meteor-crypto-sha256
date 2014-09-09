@@ -2,21 +2,21 @@
 
 Dependency
 ----------
-- [jparker:meteor-crypto-base](https://github.com/p-j/meteor-crypto-base).
+- [`jparker:crypto-core`](https://github.com/p-j/meteor-crypto-core).
 
 Install
 -------
 
 Inside your project folder run
 ```
-$ meteor add jparker:meteor-crypto-sha256
+$ meteor add jparker:crypto-sha256
 ```
 The following method under the `CryptoJS` namespace will now be available
 on **both the client and server**:
 
 `CryptoJS.SHA256(message)`
 
-If [jparker:meteor-crypto-hmac](https://github.com/p-j/meteor-crypto-hmac) is also installed, the following method will also be available:
+If [`jparker:crypto-hmac`](https://github.com/p-j/meteor-crypto-hmac) is also installed, the following method will also be available:
 
 `CryptoJS.HmacSHA256(message, key)`
 
@@ -42,7 +42,7 @@ The CryptoJS project lives at <https://code.google.com/p/crypto-js/>
 Related packages
 ----------------
 
-- [meteor-crypto-md5](https://github.com/p-j/meteor-crypto-md5)
-- [meteor-crypto-sha1](https://github.com/p-j/meteor-crypto-sha1)
-- [meteor-crypto-hmac](https://github.com/p-j/meteor-crypto-hmac)
-- [meteor-crypto-base64](https://github.com/p-j/meteor-crypto-base64)
+- [`jparker:crypto-md5`](https://github.com/p-j/meteor-crypto-md5)
+- [`jparker:crypto-sha1`](https://github.com/p-j/meteor-crypto-sha1)
+- [`jparker:crypto-hmac`](https://github.com/p-j/meteor-crypto-hmac)
+- [`jparker:crypto-base64`](https://github.com/p-j/meteor-crypto-base64)
