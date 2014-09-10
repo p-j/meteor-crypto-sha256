@@ -37,7 +37,7 @@ CryptoJS.HmacSHA256("Message", "Secret Passphrase").toString()
 
 See also
 --------
-The CryptoJS project lives at <https://code.google.com/p/crypto-js/>
+The CryptoJS project lives at <https://code.google.com/p/crypto-js/> and the documentation for Hashers is at <https://code.google.com/p/crypto-js/#Hashers>.
 
 Related packages
 ----------------
