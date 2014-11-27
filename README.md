@@ -1,5 +1,9 @@
 [SHA256](https://en.wikipedia.org/wiki/SHA-256) algorithm from [CryptoJS](https://code.google.com/p/crypto-js/).
 
+[![Build Status](https://secure.travis-ci.org/p-j/meteor-crypto-sha256.png)](http://travis-ci.org/gfk-ba/carbon-router)
+
+
+
 Dependency
 ----------
 - [`jparker:crypto-core`](https://github.com/p-j/meteor-crypto-core).
